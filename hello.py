@@ -30,11 +30,24 @@ from flask import Flask
 
 app = Flask(__name__)
 
+def add(x, y):
+    return x + y 
+    
+
 # @app.route() lets you set the url path that will trigger each view.
 # '/' is the root of the domain. If your website was hosted at example.com
 # then the full url would be https://example.com/
 # If the path was '/do/thing/' then the full url would be https://example.com/do/thing/
 @app.route('/')
-def hello_world():
-    # Return a string that will be the full response the browser gets
-    return 'Hello, World!'
+def hello_world(num):
+      return "Hello, world!"
+             
+
+    
+def test_add():
+      assert add(7, 1) == 8
+      
+    
+
+  
+  
