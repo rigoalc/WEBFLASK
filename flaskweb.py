@@ -20,7 +20,7 @@ The website is running on http://127.0.0.1:5000/
 The development time for this assignment is 6hrs
 '''
 
-from flask import Flask, render_template
+from flask import Flask, render_template #Import library flask and template
 
 app = Flask(__name__)
 
@@ -29,8 +29,8 @@ def add(x, y):
 
 @app.route('/')
 def index():
-    # Render a template instead of returning a string
-    return render_template('main.html')
+    #Main Page
+    return render_template('main.html')#return html from file main
 
     
     
