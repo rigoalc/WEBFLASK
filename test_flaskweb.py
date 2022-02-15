@@ -3,7 +3,7 @@
 # Advanced Python Programming
 # 02/13/2022
 
-from flaskweb import add
+from web import add
 
 
 def test_add():
