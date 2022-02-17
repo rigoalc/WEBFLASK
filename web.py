@@ -12,7 +12,6 @@ and then install the flask package. Then add to those features included with the
 I used an HTML template to print the contents of the website. The template is returned to the function index of the web page.
 Test:
 The idea is to test asserting a simple calculation using a virtual environment running pytest from the terminal. 
-I'm still not able to run the test. I don't know if my error is in the "hello.py" file or the test file.
 How to use the program:
 On the terminal: First activate the virtual environment '. venv/bin/activate', Second export the file 'export FLASK_APP=hello.py' run the framework 'flask run'. 
 The website is running on http://127.0.0.1:5000/
